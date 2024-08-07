@@ -9,6 +9,7 @@
     background-position: center;
     background-size: cover;
     height: 109vh;
+    flex-direction: column;
 
 .icon{
     width: 200px;
@@ -101,4 +102,127 @@ ul li a:hover{
 
 .srch:focus{
     outline: none;
+}
+
+.content{
+    width: 700px;
+    height: auto;
+    margin: 50px;
+    color: #fff;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.mainText{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    font-weight: bolder;
+    align-items: center;
+    justify-content: center;
+}
+
+.smtext{
+    margin-top: 15px;
+}
+
+.button{
+    float: left;
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px #ff7200;
+    color: #fff;
+    font-size: 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+    display: block;
+    cursor: pointer;
+    margin-left: 45%;
+    margin-top: 70px;
+    transition: 0.4 ease-in-out;
+}
+
+.button a{
+    color: black;
+    
+    text-decoration: none;
+}
+
+.button:hover{
+    background-color: #fff;
+}
+
+.form{
+    float: right;
+    flex-direction: column;
+    width: 300px;
+    height: 350px;
+    position: absolute;
+    padding: 25px;
+    left: 870px;
+    top: 100px;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,  rgba(0,0,0,0.5)50%);
+    border-radius: 15px;
+    padding: 25px;
+    margin-left: 30px;
+}
+
+.form h2{
+    width: 220px;
+    color: #ff7200;
+    background-color: #fff;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 22px;
+    padding: 8px;
+    border-radius: 10px;
+    height: 25px;
+    margin: 10px;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.LoginBtn{
+    
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px #ff7200;
+    color: #fff;
+    font-size: 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+    
+    cursor: pointer;
+    margin-left: 30px;
+    margin-top: 40px;
+    transition: 0.4 ease-in-out;
+}
+
+.LoginBtn a{
+    text-decoration: none;
+    color: black;
+}
+
+.LoginBtn:hover{
+    background-color: #fff;
+}
+
+.form p{
+    color: #fff;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Times New Roman';
 }
