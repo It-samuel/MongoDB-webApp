@@ -226,3 +226,19 @@ ul li a:hover{
     text-align: center;
     font-family: 'Times New Roman';
 }
+
+.icon a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.icon ion-icon{
+    color: #fff;
+    padding-left: 10px;
+    padding-top: 15px;
+    font-size: 30px;
+}
+
+.icon ion-icon:hover{
+    color: #ff7200;
+}
